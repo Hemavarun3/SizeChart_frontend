@@ -62,7 +62,7 @@ const MeasurementForm = () => {
       try {
         console.log(formData);
         
-        const response = await fetch("http://localhost:5001/predictdata", {
+        const response = await fetch("https://sizechart-backend.onrender.com/predictdata", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
